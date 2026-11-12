@@ -14,6 +14,7 @@ export async function handler(event) {
             <!DOCTYPE html>
             <html>
             <head>
+                <link rel="stylesheet" href="../../styles.css">
                 <style>
                     body {font-family: var(--poppins); background-color: var(--negro); margin: 0; padding: 20px;}
                     .container {background-color: var(--negro-2); padding: 30px; border-radius: 8px; max-width: 600px; margin: auto; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
@@ -35,9 +36,9 @@ export async function handler(event) {
                     <p>Si no solicitaste este correo, por favor ignóralo.</p>
                     <span>
                         <a href="https://ramirocorrea.com.ar">www.ramirocorrea.com.ar</a>
-                        <p> | </p>
                         <a href="mailto:hola@ramirocorrea.com.ar">hola@ramirocorrea.com.ar</a>
                     </span>
+                    <br>
                     <span>© 2026 Ramiro Correa. Todos los derechos reservados.</span>
                 </div>
             </body>
