@@ -1,7 +1,8 @@
 @layer root {
     :root {
-        --azul: hsl(213, 100%, 50%);
-        --gradient-color: linear-gradient(90deg, hsl(213, 100%, 50%) 0%, hsl(213, 100%, 85%) 40%, hsl(213, 100%, 85%) 60%, hsl(213, 75%, 60%) 100%);
+        --azul: hsl(203, 100%, 37%);
+        --verde: hsl(173, 100%, 37%);
+        --gradient-color: linear-gradient(90deg, hsl(203, 100%, 37%) 0%, hsl(203, 100%, 85%) 40%, hsl(203, 100%, 85%) 60%, hsl(203, 75%, 60%) 100%);
         --negro: hsl(0, 0%, 6%);
         --negro-2: hsl(0, 0%, 20%);
         --blanco: hsl(0, 0%, 96%);
