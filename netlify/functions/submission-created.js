@@ -38,7 +38,7 @@ export async function handler(event) {
         `;
         // ENVIO
         await resend.emails.send({
-            from: 'Ramiro Correa <no-reply@ramirocorrea.com.ar>',
+            from: 'Ramiro Correa <hola@ramirocorrea.com.ar>',
             to: userEmail,
             subject: 'Confirmación de recepción de tu consulta',
             html: htmlTemplate
