@@ -14,7 +14,7 @@ export async function handler(event) {
             <html>
             <head>
                 <style>
-                body {background-color: hsl(0, 0%, 20%); font-family: Arial, sans-serif; margin: 0; padding: 20px;}
+                body {font-family: Arial, sans-serif; margin: 0; padding: 20px;}
                 .container {background-color: hsl(0, 0%, 6%); padding: 30px; border-radius: 8px; max-width: 600px; margin: auto; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
                 h2 {color: hsl(203, 100%, 37%); font-family: Arial, sans-serif;}
                 img {max-width: 100px; height: auto; align-self: center;}
@@ -29,15 +29,15 @@ export async function handler(event) {
                     <h2>¡Hola, ${userName}!</h2>
                     <p>Hemos recibido tu consulta correctamente. La analizaremos y nos pondremos en contacto a la brevedad.</p>
                     <p>Gracias por confiar en nosotros.</p>
-                </div>
-                <div class="footer">
-                    <p>Este es un correo generado automáticamente, por favor no respondas a este mensaje.</p>
-                    <p>Si no esperabas este correo, solo ignóralo.</p>
-                    <span>
-                        <a href="https://ramirocorrea.com.ar">www.ramirocorrea.com.ar</a>
-                    </span>
-                    <br>
-                    <span style="color: hsl(173, 100%, 37%);">© 2026 Ramiro Correa. Todos los derechos reservados.</span>
+                    <div class="footer">
+                        <p>Este es un correo generado automáticamente, por favor no respondas a este mensaje.</p>
+                        <p>Si no esperabas este correo, solo ignóralo.</p>
+                        <span>
+                            <a href="https://ramirocorrea.com.ar">www.ramirocorrea.com.ar</a>
+                        </span>
+                        <br>
+                        <span style="color: hsl(173, 100%, 37%);">© 2026 Ramiro Correa. Todos los derechos reservados.</span>
+                    </div>
                 </div>
             </body>
             </html>
