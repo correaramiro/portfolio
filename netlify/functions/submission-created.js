@@ -14,13 +14,13 @@ export async function handler(event) {
             <html>
             <head>
                 <style>
-                .footer {background-color: hsl(0, 0%, 20%); margin-top: 20px; font-size: 12px; color: hsl(213, 4%, 70%); text-align: center;}
-                    body {font-family: Arial, sans-serif; margin: 0; padding: 20px;}
-                    .container {background-color: hsl(0, 0%, 6%); padding: 30px; border-radius: 8px; max-width: 600px; margin: auto; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
-                    h2 {color: hsl(203, 100%, 37%); font-family: Arial, sans-serif;}
-                    img {max-width: 100px; height: auto; align-self: center;}
-                    p {color: hsl(0, 0%, 96%); line-height: 1.3;}
-                    a {text-decoration: none; color: hsl(213, 4%, 70%);}
+                body {background-color: hsl(0, 0%, 20%); font-family: Arial, sans-serif; margin: 0; padding: 20px;}
+                .container {background-color: hsl(0, 0%, 6%); padding: 30px; border-radius: 8px; max-width: 600px; margin: auto; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+                h2 {color: hsl(203, 100%, 37%); font-family: Arial, sans-serif;}
+                img {max-width: 100px; height: auto; align-self: center;}
+                p {color: hsl(0, 0%, 96%); line-height: 1.3;}
+                a {text-decoration: none; color: hsl(213, 4%, 70%);}
+                .footer {margin-top: 20px; font-size: 12px; color: hsl(213, 4%, 70%); text-align: center;}
                 </style>
             </head>
             <body>
