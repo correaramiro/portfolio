@@ -15,15 +15,17 @@ export async function handler(event) {
             <html>
             <head>
                 <style>
-                    body {font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px;}
-                    .container {background-color: #ffffff; padding: 30px; border-radius: 8px; max-width: 600px; margin: auto; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
-                    h2 {color: #2c3e50;}
-                    p {color: #555555; line-height: 1.6;}
-                    .footer {margin-top: 20px; font-size: 12px; color: #888888; text-align: center;}
+                    body {font-family: var(--poppins); background-color: var(--negro); margin: 0; padding: 20px;}
+                    .container {background-color: var(--negro-2); padding: 30px; border-radius: 8px; max-width: 600px; margin: auto; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+                    h2 {color: var(--azul); font-family: var(--syne);}
+                    img {max-width: 100px; height: auto; align-self: center;}
+                    p {color: var(--blanco); line-height: 1.3;}
+                    .footer {margin-top: 20px; font-size: 12px; color: var(--texto); text-align: center;}
                 </style>
             </head>
             <body>
                 <div class="container">
+                    <img src="https://ramirocorrea.com.ar/assets/img/logo1.svg" alt="Logo">
                     <h2>¡Hola, ${userName}!</h2>
                     <p>Hemos recibido tu consulta correctamente. Nos pondremos en contacto a la brevedad.</p>
                     <p>Gracias por confiar en nosotros.</p>
@@ -31,6 +33,11 @@ export async function handler(event) {
                 <div class="footer">
                     <p>Este es un correo generado automáticamente, por favor no respondas a este mensaje.</p>
                     <p>Si no solicitaste este correo, por favor ignóralo.</p>
+                    <span>
+                        <a href="https://ramirocorrea.com.ar">www.ramirocorrea.com.ar</a>
+                        <p> | </p>
+                        <a href="mailto:hola@ramirocorrea.com.ar">hola@ramirocorrea.com.ar</a>
+                    </span>
                     <span>© 2026 Ramiro Correa. Todos los derechos reservados.</span>
                 </div>
             </body>
